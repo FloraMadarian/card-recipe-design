@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--light-blue);
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.container .wrapper {
+    padding: var(--spacing-4) 0;
+    width: 40%;
+}
+
+.heading p {
+    color: var(--secondary-color);
+}
+
+.img-box {
+    width: 100%;
+}
+
+.img-box img {
+    width: 100%;
+    object-fit: cover;
+} 
+
+.container .wrapper li {
+    margin: 16px 0;
+    color: var(--secondary-color);
+}

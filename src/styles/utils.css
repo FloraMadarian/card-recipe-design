@@ -11,7 +11,12 @@
 .fs-20 {
     font-size: 20px;
     line-height: 20px;
-  }
+}
+
+.fs-16 {
+  font-size: 16px;
+  line-height: 16px;
+}
 
 .bold {
     font-weight: 500;
@@ -28,3 +33,14 @@
     align-items: center;
 }
 
+.f-italic {
+  font-style: italic;
+}
+
+.mb-20 {
+  margin-bottom: var(--spacing-4);
+}
+
+.mt-20 {
+  margin-top: var(--spacing-4);
+}
